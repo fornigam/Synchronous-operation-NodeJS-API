@@ -1,0 +1,18 @@
+{
+  "name": "request_call",
+  "version": "1.0.0",
+  "description": "Data pass from server file to calling file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nigam Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "sync-request": "^6.0.0"
+  }
+}
